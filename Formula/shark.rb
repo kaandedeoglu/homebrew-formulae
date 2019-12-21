@@ -2,10 +2,10 @@ class Shark < Formula
   desc "Swift CLI for strong-typing images, colors and localizations"
   homepage "https://github.com/kaandedeoglu/Shark"
   url "https://github.com/kaandedeoglu/Shark.git",
-      :tag => "1.1.2"
+      :tag => "1.1.3"
   head "https://github.com/kaandedeoglu/Shark.git"
 
-  depends_on :xcode => ["10.2", :build]
+  depends_on :xcode => ["11.0", :build]
 
   def install
     system "swift build -c release --disable-sandbox"
