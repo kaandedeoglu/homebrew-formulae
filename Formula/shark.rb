@@ -2,8 +2,8 @@ class Shark < Formula
   desc "Swift CLI for strong-typing images, colors and localizations"
   homepage "https://github.com/kaandedeoglu/Shark"
   url "https://github.com/kaandedeoglu/Shark.git"
-  head "https://github.com/kaandedeoglu/Shark.git", :tag => "1.5.1"
-  version "1.5.1"
+  head "https://github.com/kaandedeoglu/Shark.git", :tag => "1.6.1"
+  version "1.6.1"
 
   depends_on :xcode => ["11.0", :build]
 
