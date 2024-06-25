@@ -1,7 +1,8 @@
-class Shark < Formula
+class SharkBeta < Formula
   desc "Swift CLI for strong-typing images, colors and localizations [BETA]"
   homepage "https://github.com/kaandedeoglu/Shark"
   url "https://github.com/kaandedeoglu/Shark.git"
+  conflicts_with "shark", :because => "both install `shark`, choose one."
   head "https://github.com/kaandedeoglu/Shark.git", :branch => "master"
   version "HEAD"
 
