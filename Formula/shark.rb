@@ -14,6 +14,6 @@ class Shark < Formula
   end
 
   test do
-    system "#{bin}/shark", "--help"
+    system bin/"shark", "--help"
   end
 end

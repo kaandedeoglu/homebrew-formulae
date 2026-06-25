@@ -14,7 +14,7 @@ class SharkAT1 < Formula
   end
 
   test do
-    system "#{bin}/shark1", "--help"
-    system "#{bin}/shark-1", "--help"
+    system bin/"shark1", "--help"
+    system bin/"shark-1", "--help"
   end
 end
